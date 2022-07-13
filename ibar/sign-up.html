@@ -4,85 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-    .myDiv {
-        border: 5px outset blue;
-        background-color: blue;
-        padding: 35px 70px;
-        }
-        .topnav {
-        overflow: hidden;
-        }
-      
-        /* Style the links inside the navigation bar */
-        .topnav a {
-        display: block;
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        }
-      
-        /* Change the color of links on hover */
-        .topnav a:hover {
-        color: black;
-        }
-      
-        /* Add a color to the active/current link */
-        .topnav a.active {
-            background-color: #04AA6D;
-            color: white;
-        }
-        /* Style the search box inside the navigation bar */
-        .topnav input[type=text] {
-            float: right;
-            padding: 6px;
-            border: none;
-            margin-top: 8px;
-            margin-right: 16px;
-            font-size: 17px;
-        }</style>
+    <link rel="stylesheet" href="style.css">
     <title>IBARIZE</title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/940/940631.png" type="image/icon type">
-    <div class="myDiv">
-        <img scr="Capture.PNG">
-        <table style="width:100%" class="topnav">
-            <tr>
-                <th><img src="Capture.PNG" ></th>
-                <th><a class="button" href="#home">Home</a></th>
-                <th><a class="button" href="#news">News</a></th>
-                <th><a class="button" href="#contact">Contact</a></th>
-                <th><a class="button" href="#about">About</a></th>
-                <th><input type="text" placeholder="Search.."></th>
-            </tr> 
-        </table>                    
-    </div>
 </head>
+
 <body>
-    <p style="font-size: large;"><B>SIGN UP FOR FREE</B></p></div>
-    <form action="/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" required autofocus><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" required ><br>
-        <label for="date">Date:</label><br>
-        <input type="date"id="fname" name="fname" max="1979-12-31" required><br>
-        <label for="gender">Gender:</label><br>
-        <input type="radio" id="gender" name="gender" >
-        <label for="male">Male</label><br>
-        <input type="radio" id="gender" name="gender" >
-        <label for="female">Female</label><br>
-        <input type="checkbox"><br>
-        <label for="phone">Enter a phone number:</label><br>
-        <input type="tel" id="phone" name="phone" placeholder="123-45-678"pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
-        <input type="email" id="fname" name="fname" autocomplete="off"><br>
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username" required><br>
-        <label for="pwd">Password:</label><br>
-        <input type="password" id="pwd" name="pwd" required><br>
-        <input type="submit">
-    </form>
+    <div>
+            <table >
+                <div style="background-color: blue;">
+                <tr>   
+                    <td colspan="2" BORDER=0 style="background-color:blue;width:60%">
+                        <p style="color:white; font-size: large; font-size: 30px;text-decoration: none;text-align: center; ">
+                            <b>
+                            <i>
+                                <u style="text-decoration: none;text-align:center">WELCOME TO IBARIZE SERVICES.</u>
+                            </i>
+                            </b>  
+                        </p>
+                        <img src="doc2.png" alt="" style="float:left; margin-right:10px;">
+
+                    </td>
+                </div>    
+                    
+                    <div >
+                        <td> <form action="/action_page.php">
+                            <h1><B>SIGN UP FOR FREE</B></h1>
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname" required autofocus><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="lname" name="lname" required ><br>
+                            <label for="date">Date:</label><br>
+                            <input type="date"id="fname" name="fname" max="1979-12-31" required><br>
+                        
+                            <label for="phone">Enter a phone number:</label><br>
+                            <input type="tel" id="phone" name="phone" placeholder="123-45-678"pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+                            <label for="username">Email:</label><br>
+                            <input type="text" id="username" name="username" required><br>
+                            <label for="pwd">Password:</label><br>
+                            <input type="password" id="pwd" name="pwd" required><br>
+                            <input type="submit">
+                        </form>
+                        </td>  
+                    </div>
+                </tr>
+            </table>
+        </p>         
+    </div>
 </body>
+
 </html>
