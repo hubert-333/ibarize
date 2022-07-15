@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--to specify the language--> 
+
+<head>
+ <!--this is the head--> 
+
+ <link rel="stylesheet" href="STYLE03.css">
+ <!--this is the link to the external style sheet-->
+
+ <title style="border:2px solid Tomato;" padding: 30px; margin: 50px;>
+    IBARIZE
+ </title>
+ <!--this is the title and its style-->
+ <script type="text/javascript">
+
+  function show_alert()  
+  {
+     alert("i am an alert box");
+  } 
+  function show_prompt()
+  {
+    var name=prompt("please enter your name","harry porter");
+    if (name!=null&&name!="")
+    {
+      document.write("hello"+name+"!how are you today?");
+    }
+  }
+  function validate_required(field,alerttxt)
+  {
+    with(field)
+    {
+      if(vale==null&&value=="")
+      {
+        alert(alerttxt);
+        return false;
+      }
+      else{
+        return true;
+      }
+    }
+  }
+  function validate_form(thisform)
+  {
+    with(thisform)
+    {
+      if(validate_required(email,"E,ail must be filled out!")==false)
+      {
+        email.focus();
+        return false;
+      }
+    }
+  }
+ </script>
+</head>
+<body style="background-color:rgb(19, 207, 231);">
+<!--this s the body and its background color--> 
+
+<h1><B><U><mark>WELCOME TO IBARIZE</mark></U></B> </h1>
+<!--this is the first header-->
+
+<i><img src="C:\Users\ICT Admin\Desktop\image (15 - Copy.pn" alt="Satisfied parent" width="104" height="142"></i>
+<!--this is where you insert an image -->
+
+<a href="https://www.sign-in.htm">Sign-in</a>
+<!--this is how u insert a link to another web page -->
+
+<p style="color:red;">
+<!--this is the first paragraph -->    
+    This paragraph<hr>
+    contains a lot of lines
+    in the source code,<br>
+    but the browser
+    ignores it.
+</p>
+<button onclick="show_alert()">alert</button>
+<button onclick="show_prompt()">prompt</button>
+<script type="text/javascript">
+  var i=0;
+  do{
+    document.write("the number is" + i);
+    document.write("<br/>");
+    i++;
+  }
+  while(i<=5);
+  var x;
+  var mycars= new Array();
+  mycars[0]="Saab";
+  mycars[1]="Volvo";
+  mycars[2]="BMW";
+  for(x in mycars)
+  {
+    document.write(mycars[x]="<br/>");
+  }
+</script>
+<form action="submit.html" onsubmit="return validate_form(this)" method="post">
+Email:<input type="text" name="email" size="30">
+<input type="submit"value="Submit"></form>
+<p style="font-family:verdana;" style="text-align:center;">
+    <pre>paragraph
+        contains a lot of lines
+        in the source code,<br>
+        but the browser
+        ignores it.
+    </pre> 
+</p>
+<p>Here are some quotes from romper cite about how precious babies are:</p>
+<blockquote cite="https://www.romper.com/">
+<ol> 
+<li>Make no mistake about why these babies are here — they are here to replace us. </li>
+<li>"The amazing thing about becoming a parent is that you will never again be your own first priority."
+ by Olivia Wilde</li>
+</ol>   
+</blockquote>
+<P>
+    <table>
+        <tr style="background-color: blue;">
+            <th colspan="2"> DOCTOR name</th>
+          <th>DOCTOR SPECIALITY</th>
+          <th>DOCTOR ADDRESS</th>
+        </tr>
+        <tr style="background-color: rgb(255,255,0)">
+          <td>TWAGIRUMUKIZA</td>
+          <td>obstetrician</td>
+          <td>0798564347</td>
+        </tr>
+        <tr style="background-color:#00FF00;">
+          <td>MURWANASHYAKA</td>
+          <td>obstetrician</td>
+          <td>0723216987</td>
+        </tr>
+    </table>
+</P>
+</body>
+</html>

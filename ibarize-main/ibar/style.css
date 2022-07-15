@@ -1,0 +1,117 @@
+.button {
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  input{
+    width: 100%;
+    padding: 9px;
+    margin: 5px 0 22px 0;
+    border: rgb(29, 29, 29) 1px solid;
+  }
+  body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  .myDiv {
+  border: 5px outset blue;
+  background-color: blue;
+  padding: 35px 70px;
+  }
+  .topnav {
+  overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+  display: block;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+  color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  }
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  }
+  tr {
+    height: 100vh;
+}
+  .bg-img {
+  /* The image used */
+  background-image: url("doc1.jpg");
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  position:bottom;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+  margin-left: 20rem;
+  max-width: 300px;
+  padding: 100px;
+  }
+
+  form{
+    margin-left: 20%;
+    width: 100%;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 9px;
+  margin: 5px 0 7px 0;
+  }
+
+  input[type=radio]{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+  background-color: blue;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  }
+  
+  .btn:hover {
+  opacity: 1;
+  }
